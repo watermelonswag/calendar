@@ -18,6 +18,7 @@ import styles from './Signin.module.css';
 const theme = createTheme();
 
 export default function SignIn() {
+
 const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -77,10 +78,10 @@ return (
             >
             로그인
             </Button>
-            <Button className={styles.signUp} href="#">계정을 만들어보자!</Button>
+            <button className={styles.signUp} href="#">계정을 만들어보자!</button>
         </Box>
         <Link className={styles.forgotPassword} href="#" variant="body1">
-              비밀번호를 까먹으셨나?
+            비밀번호를 까먹으셨나?
         </Link>
         </div>
         </Box>

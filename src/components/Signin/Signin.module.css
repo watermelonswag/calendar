@@ -27,7 +27,7 @@
 
 .signUp {
     width: 350px;
-    height: 37px;
+    height: 40px;
     margin: auto;
     font-size: 14px;
     text-align: center;
@@ -35,11 +35,12 @@
     background-color: black;
     color: white;
     display: block;
+    border-radius: 5px;
 }
 
 .signUp:hover {
     width: 350px;
-    height: 37px;
+    height: 40px;
     font-size: 14px;
     margin: auto;
     text-align: center;
@@ -47,6 +48,9 @@
     background-color: rgb(75, 75, 75);
     color: white;
     display: block;
+    transition: all .3s;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .forgotPassword {
