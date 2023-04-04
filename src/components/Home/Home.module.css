@@ -1,18 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: var(--font-PoorStory);
+    /* font-family: var(--font-PoorStory); */
 }
 
 .firstLayout {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 100px;
     margin-bottom: -80px;
+    padding: 100px;
 }
 
 /* .secondLayout {
-    display: block;
+    float: left;
 } */
 
 
@@ -20,7 +20,8 @@
     border-radius: 5px;
     width: 100px;
     height: 40px;
-    margin: auto;
+    margin-right: auto;
+    float: center;
     font-size: 14px;
     text-align: center;
     border: 1px solid #0040ff;
@@ -53,7 +54,8 @@
     border-radius: 5px;
     width: 100px;
     height: 40px;
-    margin: auto;
+    margin-right: auto;
+    float: center;
     font-size: 14px;
     text-align: center;
     border: 1px solid #0040ff;
@@ -81,9 +83,11 @@
 
 .mainIcon {
     margin-top: -15px;
-    margin-left: 250px;
     width: 100px;
     height: 120px;
+    position: relative;
+    left: 95%;
+    transform: translateX(-95%);
 }
 
 .line {

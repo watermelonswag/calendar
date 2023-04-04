@@ -12,7 +12,7 @@ export default function Home() {
         <>
         <div className={styles.firstLayout}>
         <img className={styles.mainIcon} src={MainIcon} />
-        <div className={styles.secondLayout}>
+        <div>
         <div>
         <Link to='/signin'>
             <button className={styles.loginHome} href="#">로그인</button>
